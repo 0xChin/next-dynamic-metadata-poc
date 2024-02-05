@@ -114,5 +114,5 @@ export default function Home() {
 }
 
 export async function generateMetadata(): Promise<Metadata> {
-  return {title: 'asdf', openGraph: {images: [{url: 'https://mvamictakpgckrafjsbm.supabase.co/storage/v1/object/public/profiles/avatars/0xd4fa3539118d7b869214b25b84bdee5b7a6040aa40f935f33ba0bf1fc1beab80?1706904693907'}]}}
+  return {title: 'asdf', description: `it is ${new Date().getTime()}`, openGraph: {images: [{url: 'https://mvamictakpgckrafjsbm.supabase.co/storage/v1/object/public/profiles/avatars/0xd4fa3539118d7b869214b25b84bdee5b7a6040aa40f935f33ba0bf1fc1beab80?1706904693907'}]}}
 }
